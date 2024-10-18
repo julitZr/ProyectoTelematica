@@ -1,0 +1,85 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.7.17">
+  <diagram name="Page-1" id="FQwyTaqhcVlv5dtOvKiT">
+    <mxGraphModel dx="1674" dy="761" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ZKx1GusQPbQrgWM42Pkh-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZKx1GusQPbQrgWM42Pkh-1" target="ZKx1GusQPbQrgWM42Pkh-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZKx1GusQPbQrgWM42Pkh-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZKx1GusQPbQrgWM42Pkh-1" target="ZKx1GusQPbQrgWM42Pkh-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZKx1GusQPbQrgWM42Pkh-1" value="dhcp-client" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="150" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ZKx1GusQPbQrgWM42Pkh-2" value="send_dhcp_discover" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="70" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ZKx1GusQPbQrgWM42Pkh-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZKx1GusQPbQrgWM42Pkh-4" target="ZKx1GusQPbQrgWM42Pkh-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZKx1GusQPbQrgWM42Pkh-4" value="send_dhcp_request" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="220" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ZKx1GusQPbQrgWM42Pkh-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZKx1GusQPbQrgWM42Pkh-6" target="ZKx1GusQPbQrgWM42Pkh-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZKx1GusQPbQrgWM42Pkh-6" value="socket_send_broadcast" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="130" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ZKx1GusQPbQrgWM42Pkh-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.447;entryY=0.013;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="ZKx1GusQPbQrgWM42Pkh-2" target="ZKx1GusQPbQrgWM42Pkh-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZKx1GusQPbQrgWM42Pkh-9" value="dhcp-server" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="740" y="150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZKx1GusQPbQrgWM42Pkh-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZKx1GusQPbQrgWM42Pkh-11" target="ZKx1GusQPbQrgWM42Pkh-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZKx1GusQPbQrgWM42Pkh-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZKx1GusQPbQrgWM42Pkh-11" target="ZKx1GusQPbQrgWM42Pkh-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="290" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZKx1GusQPbQrgWM42Pkh-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZKx1GusQPbQrgWM42Pkh-11" target="ZKx1GusQPbQrgWM42Pkh-15">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="240" y="460" />
+              <mxPoint x="240" y="610" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZKx1GusQPbQrgWM42Pkh-11" value="dhcp-server" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="420" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ZKx1GusQPbQrgWM42Pkh-12" value="bind&lt;br&gt;port 67" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="350" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ZKx1GusQPbQrgWM42Pkh-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZKx1GusQPbQrgWM42Pkh-14" target="ZKx1GusQPbQrgWM42Pkh-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZKx1GusQPbQrgWM42Pkh-14" value="process_dhcp_discover" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="460" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ZKx1GusQPbQrgWM42Pkh-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZKx1GusQPbQrgWM42Pkh-15" target="ZKx1GusQPbQrgWM42Pkh-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZKx1GusQPbQrgWM42Pkh-15" value="process_dhcp_request" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="570" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ZKx1GusQPbQrgWM42Pkh-18" value="dhcp-client" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="610" y="520" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZKx1GusQPbQrgWM42Pkh-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.592;entryY=0.05;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="ZKx1GusQPbQrgWM42Pkh-9" target="ZKx1GusQPbQrgWM42Pkh-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="780" y="320" />
+              <mxPoint x="131" y="320" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
