@@ -57,3 +57,7 @@ https://datatracker.ietf.org/doc/rfc3456/
 https://www.watchguard.com/help/docs/fireware/12/es-419/Content/es-419/networksetup/configure_dhcp_server_c.html
 
 
+![Documentación](https://github.com/user-attachments/assets/3b74349f-80cd-49e8-98d3-ad11844ffb75)
+
+
+
