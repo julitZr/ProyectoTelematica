@@ -47,6 +47,8 @@ Finalmente, la adopción de DHCP no solo mejora la administración de redes comp
 El protocolo permite una mayor flexibilidad y adaptabilidad en redes que evolucionan constantemente, lo cual es crucial para organizaciones
 que dependen de infraestructuras dinámicas y en constante crecimiento.
 
+Link video: https://youtu.be/CMt8LKLyjok
+
 Referencias
 
 https://beej.us/guide/bgnet/
